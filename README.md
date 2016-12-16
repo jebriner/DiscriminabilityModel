@@ -100,10 +100,14 @@ JNDcompare.R uses SPEC outputs as its inputs. The user inputs the two species to
 ###Yellowcompare 
 
 
-##Purpose: For several different visual systems, compare the visibility of Heliconius yellow vs. Eueides yellow. This applies the predictions of our discriminability modeling to complex spectra measured from butterfly wings. 
+##Purpose: 
+
+For several different visual systems, compare the visibility of Heliconius yellow vs. Eueides yellow. This applies the predictions of our discriminability modeling to complex spectra measured from butterfly wings. 
 
 
-##Inputs: SPEC output for the visual systems + a table of the spectra of different yellow pigments (Heliconius or Eueides)
+##Inputs: 
+
+SPEC output for the visual systems + a table of the spectra of different yellow pigments (Heliconius or Eueides)
 
 
 
