@@ -67,11 +67,17 @@ Irradiance spectra is set as “Daylight” using a file in the default SPEC lib
 + Set alpha as "high light intensity (T=10,000)"
 + Set Weber fraction to 0.05 for all cones
 + Enter own cone density ratios, ordered from shortest to longest wavelength sensitivity
+
  ⋅⋅* H. erato females: 0.09, 0.07, 0.17, 1
+ 
  ⋅⋅* H. erato males: 0.13, 0.2, 1 
+ 
  ⋅⋅* H. erato hypothetical males: 0.13, 0.2, 1 (where UV1/UV2 spectra switched)
+ 
  ⋅⋅* H. melpomene: 0.09, 0.24, 1
+ 
  ⋅⋅* H. ismenius: 0.08, 0.25, 1
+
 
 
 -------------------------------------
