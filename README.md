@@ -86,9 +86,9 @@ Irradiance spectra is set as “Daylight” using a file in the default SPEC lib
 
 * [JNDcompare](https://github.com/jebriner/DiscriminabilityModel/tree/master/JNDcompare)
 
-JNDcompare is an R script I wrote for species/species JND comparisons to quickly scan SPEC outputs for promising JND differences.
+JNDcompare.R is an R script I wrote for species/species JND comparisons. It quickly scans SPEC outputs for promising JND differences.
 
-JNDcompare uses SPEC outputs as its inputs.
+JNDcompare.R uses SPEC outputs as its inputs. The user inputs the two species to compare and the JND threshholds they'd like to use (e.g. < 0.35 and > 1). JNDcompare.R produces a list of all wavelength pairs where one species falls below the JND threshold and the other lands above it. If the JND threshholds were chosen sensibly, these listed wavelength pairs should be easily discriminated by one species and poorly discriminated by the other in a binary color choice experiment. 
 
 
 
