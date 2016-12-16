@@ -35,7 +35,7 @@ Irradiance spectra is set as “Daylight” using a file in the default SPEC lib
 ###SPEC Inputs
 
 1. Speadsheets of spectral sensitivity curves (measured from animal photoreceptors).  
- - [ Link to p hotoreceptor inputs ](https://github.com/jebriner/DiscriminabilityModel/tree/master/SPECInputs)
+ - [ Link to photoreceptor inputs ](https://github.com/jebriner/DiscriminabilityModel/tree/master/SPECInputs)
 2. Spreadsheet of normalized filter spectra (measured from narrow-band wavelength filters)
  - [ Link to filter spectra ] (https://github.com/jebriner/DiscriminabilityModel/tree/master/SPECInputs/InterferenceFilterInputs)
 3. Weber fraction (using a default value of **0.05**)
@@ -67,11 +67,11 @@ Irradiance spectra is set as “Daylight” using a file in the default SPEC lib
 + Set alpha as "high light intensity (T=10,000)"
 + Set Weber fraction to 0.05 for all cones
 + Enter own cone density ratios, ordered from shortest to longest wavelength sensitivity
- ⋅⋅ H. erato females: 0.09, 0.07, 0.17, 1
- ⋅⋅ H. erato males: 0.13, 0.2, 1 
- ⋅⋅ H. erato hypothetical males: 0.13, 0.2, 1 (where UV1/UV2 spectra switched)
- ⋅⋅ H. melpomene: 0.09, 0.24, 1
- ⋅⋅ H. ismenius: 0.08, 0.25, 1
+ ⋅⋅* H. erato females: 0.09, 0.07, 0.17, 1
+ ⋅⋅* H. erato males: 0.13, 0.2, 1 
+ ⋅⋅* H. erato hypothetical males: 0.13, 0.2, 1 (where UV1/UV2 spectra switched)
+ ⋅⋅* H. melpomene: 0.09, 0.24, 1
+ ⋅⋅* H. ismenius: 0.08, 0.25, 1
 
 
 -------------------------------------
