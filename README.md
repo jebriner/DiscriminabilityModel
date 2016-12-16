@@ -32,28 +32,27 @@ The amount of photoreceptor types per species is normalized: all are relative to
 
 ###SPEC Inputs
 
-1. Speadsheets of spectral sensitivity curves (measured from animal photoreceptors): 
-- [ PhotoreceptorInputs ](https://github.com/jebriner/DiscriminabilityModel/tree/master/PhotoreceptorInputs)
+1. Speadsheets of spectral sensitivity curves (measured from animal photoreceptors).  
+ - [ Link to p hotoreceptor inputs ](https://github.com/jebriner/DiscriminabilityModel/tree/master/SPECInputs)
 2. Spreadsheet of normalized filter spectra (measured from narrow-band wavelength filters)
- - [ Filter spectra 300-700 nm ] (https://github.com/jebriner/DiscriminabilityModel/tree/master/InterferenceFilterInputs)
+ - [ Link to filter spectra ] (https://github.com/jebriner/DiscriminabilityModel/tree/master/SPECInputs/InterferenceFilterInputs)
 3. Weber fraction (using a default value of **0.05**)
  - Weber's Law: the size of the JND is a constant proportion of the original stimulus value. 
  - A Weber fraction of 0.05  (delta I/I = 5/100 = 0.05) indicates that the difference threshold needed to yield the just noticeable difference is 5 units. 
-4. [ Irradiance ] (https://github.com/jebriner/DiscriminabilityModel/blob/master/SPEC_OnlyNecessaryFiles/Daylight)
+4. [ Daylight irradiance ] (https://github.com/jebriner/DiscriminabilityModel/blob/master/SPEC/Daylight)
 
 ---------------
 
 ###SPEC Options
 
-* [SPEC package](https://github.com/jebriner/DiscriminabilityModel/tree/master/SPEC_OnlyNecessaryFiles)
+* [SPEC package](https://github.com/jebriner/DiscriminabilityModel/tree/master/SPEC)
 
 
 **File 2. Quantum cone catches.R**
 
-+ Data format = Excel spreadsheet
++ Data format = 3. Excel spreadsheet
 + Open reflectance data (normalized interference filter spectra)
-+ Use own cone sensitivities
-+ Disregard ocular media and irradiance spectrum
++ Use own cone sensitivities (Kyle or Palacios data)
 
 
 **File 4. Calc discriminability.R**
@@ -62,15 +61,15 @@ The amount of photoreceptor types per species is normalized: all are relative to
 + Compare all reflectance spectra to each other
 + Disregard the ocular media
 + Take into account irradiance spectra (use Daylight irradiance spectra)
-+ Do a Von Kries transformation.
-+ Set alpha as High light intensity (T=10,000)
++ Do a Von Kries transformation
++ Set alpha as "high light intensity (T=10,000)"
 + Set Weber fraction to 0.05 for all cones
 + Enter own cone density ratios, ordered from shortest to longest wavelength sensitivity
-⋅⋅* H. erato females: 0.09, 0.07, 0.17, 1
-⋅⋅* H. erato males: 0.13, 0.2, 1 
-⋅⋅* H. erato hypothetical males: 0.13, 0.2, 1 (where UV1/UV2 spectra switched)
-⋅⋅* H. melpomene: 0.09, 0.24, 1
-⋅⋅* H. ismenius: 0.08, 0.25, 1
+ ⋅⋅* H. erato females: 0.09, 0.07, 0.17, 1
+ ⋅⋅* H. erato males: 0.13, 0.2, 1 
+ ⋅⋅* H. erato hypothetical males: 0.13, 0.2, 1 (where UV1/UV2 spectra switched)
+ ⋅⋅* H. melpomene: 0.09, 0.24, 1
+ ⋅⋅* H. ismenius: 0.08, 0.25, 1
 
 
 -------------------------------------
