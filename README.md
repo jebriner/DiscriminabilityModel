@@ -21,11 +21,13 @@ The visual systems used belong to *H. erato* (male and female), *H. melpomene*, 
 
 The photoreceptor types used are UV (very short – ultraviolet) [missing in *H. erato* males], VS (short – violet), B (short - blue), and LWS (long – green). These refer to the range of wavelengths to which each photoreceptor type is most sensitive. Because this analysis centers on shorter wavelengths, a fifth photoreceptor type (red-shifted long-wavelength) is not included. 
 
+The amount of photoreceptor types per species is normalized: all are relative to the long-wavelength photoreceptor, which is set to 1.
+
 Irradiance spectra is set as “Daylight” using a file in the default SPEC library. Since these are butterflies, not birds, ocular media transmittances are not specified. 
 
-Model assumptions: Each cell expresses only one rhodopsin (no co-expression). There are only four photoreceptors.
 
-The amount of photoreceptor types per species is normalized: all are relative to the long-wavelength photoreceptor, which is set to 1.
+**Model assumptions:** Each cell expresses only one rhodopsin (no co-expression). There are only four photoreceptors.
+
 
 
 ---------------
@@ -39,7 +41,7 @@ The amount of photoreceptor types per species is normalized: all are relative to
 3. Weber fraction (using a default value of **0.05**)
  - Weber's Law: the size of the JND is a constant proportion of the original stimulus value. 
  - A Weber fraction of 0.05  (delta I/I = 5/100 = 0.05) indicates that the difference threshold needed to yield the just noticeable difference is 5 units. 
-4. [ Daylight irradiance ] (https://github.com/jebriner/DiscriminabilityModel/blob/master/SPEC/Daylight)
+4. [ Daylight irradiance file] (https://github.com/jebriner/DiscriminabilityModel/blob/master/SPEC/Daylight) from SPEC library
 
 ---------------
 
@@ -65,11 +67,11 @@ The amount of photoreceptor types per species is normalized: all are relative to
 + Set alpha as "high light intensity (T=10,000)"
 + Set Weber fraction to 0.05 for all cones
 + Enter own cone density ratios, ordered from shortest to longest wavelength sensitivity
- ⋅⋅* H. erato females: 0.09, 0.07, 0.17, 1
- ⋅⋅* H. erato males: 0.13, 0.2, 1 
- ⋅⋅* H. erato hypothetical males: 0.13, 0.2, 1 (where UV1/UV2 spectra switched)
- ⋅⋅* H. melpomene: 0.09, 0.24, 1
- ⋅⋅* H. ismenius: 0.08, 0.25, 1
+ ⋅⋅ H. erato females: 0.09, 0.07, 0.17, 1
+ ⋅⋅ H. erato males: 0.13, 0.2, 1 
+ ⋅⋅ H. erato hypothetical males: 0.13, 0.2, 1 (where UV1/UV2 spectra switched)
+ ⋅⋅ H. melpomene: 0.09, 0.24, 1
+ ⋅⋅ H. ismenius: 0.08, 0.25, 1
 
 
 -------------------------------------
