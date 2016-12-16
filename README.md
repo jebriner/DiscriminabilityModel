@@ -7,7 +7,7 @@ Model differences in butterfly color perception caused by differences in rhodops
 
 ###Goal: 
 
-For each butterfly visual system, calculate the just noticeable difference (JND) for each pair of wavelengths (within the range of 380-470 nm). 
+For each butterfly visual system, calculate the just noticeable difference (JND) for each pair of wavelengths. 
 JNDs are the units for discriminability, where a higher JND indicates a more obvious difference.
 
 **Ultimate goal:** Select appropriate pairs of stimuli for behavioral tests of color discrimination. I want to identify wavelength pairs that are easy for one species/sex to discriminate (JND > 1), but difficult for the other (JND < 1).
