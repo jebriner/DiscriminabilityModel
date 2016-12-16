@@ -86,14 +86,19 @@ Irradiance spectra is set as “Daylight” using a file in the default SPEC lib
 
 * [JNDcompare](https://github.com/jebriner/DiscriminabilityModel/tree/master/JNDcompare)
 
-JNDcompare.R is an R script I wrote for species/species JND comparisons. It quickly scans SPEC outputs for promising JND differences.
+##Purpose: JNDcompare.R is an R script I wrote for species/species JND comparisons. It quickly scans SPEC outputs for promising JND differences.
 
-JNDcompare.R uses SPEC outputs as its inputs. The user inputs the two species to compare and the JND threshholds they'd like to use (e.g. < 0.35 and > 1). JNDcompare.R produces a list of all wavelength pairs where one species falls below the JND threshold and the other lands above it. If the JND threshholds were chosen sensibly, these listed wavelength pairs should be easily discriminated by one species and poorly discriminated by the other in a binary color choice experiment. 
+##How it works: JNDcompare.R uses SPEC outputs as its inputs. The user inputs the two species to compare and the JND threshholds they'd like to use (e.g. < 0.35 and > 1). JNDcompare.R produces a list of all wavelength pairs where one species falls below the JND threshold and the other lands above it. If the JND threshholds were chosen sensibly, these listed wavelength pairs should be easily discriminated by one species and poorly discriminated by the other in a binary color choice experiment. 
 
 
 -------------------------------------
 
-###Yellowcompare - compare the visibility of Heliconius yellow and Euides yellow 
+###Yellowcompare 
+
+##Purpose: For several different visual systems, compare the visibility of Heliconius yellow vs. Eueides yellow. This applies the predictions of our discriminability modeling to complex spectra measured from butterfly wings. 
+
+##Inputs: SPEC output for the visual systems + a table of the spectra of different yellow pigments (Heliconius or Eueides)
+
 
 Do pairwise discriminability between 3 different models (female erato (UV1, UV2, B, L), male erato (UV2, B, L), and a hypothetical, ancestral male eye with UV1 [like a female] (UV1, B, L) rather than UV2)
 
